@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+
 #color1{
     background-color: #FCFCFD;
 }
@@ -18,4 +23,21 @@
 }
 #color7{
     background-color: #42424A;
+}
+
+#background{
+    background-color: #B0B5F8;
+    min-height: 100vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper{
+    min-height: 80vh;
+    min-width: 150vh;
+    background-color: #FCFCFD;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
