@@ -76,10 +76,7 @@ a {
     margin-bottom: 50px;
 }
 
-.blueCol{
-    background-color: #150BD4;
-    height: 80vh;
-}
+
 
 #boltLogo{
     max-height: 50px;
@@ -133,3 +130,23 @@ a {
     color: white;
 }
 
+.blueCol{
+    background-color: #4F37EA;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+#graphs img{
+    margin-top: 30px;
+    width: 500px;
+}
+
+#showcase{
+    text-align: center;
+    width: 100%;
+    font-size: smaller;
+    color: white;
+}
