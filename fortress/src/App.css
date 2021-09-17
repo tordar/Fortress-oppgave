@@ -11,3 +11,31 @@ body{
     max-width: 80%;
     margin-left: 150px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.whiteCol{
+    background-color: #FCFCFD;
+    height: 80vh;
+ }
+
+.blueCol{
+    background-color: #4F37EA;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
