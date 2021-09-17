@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #B0B5F8;
  }
 
 #color1{
@@ -25,19 +26,38 @@ body {
     background-color: #42424A;
 }
 
-#background{
+/* #background{
     background-color: #B0B5F8;
     min-height: 100vh;
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
+} */
+
+.wrapper{
+    margin: 100px;
+    background-color: white;
 }
 
-#wrapper{
-    min-height: 80vh;
-    min-width: 150vh;
-    background-color: #FCFCFD;
+.row {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.whiteCol{
+   background-color: #FCFCFD;
+   height: 100px;
+}
+.blueCol{
+    background-color: #150BD4;
+    height: 100px;
 }
