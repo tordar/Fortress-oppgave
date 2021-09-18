@@ -1,10 +1,45 @@
-# Dette prosjektet bruker
+## Dette prosjektet bruker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Create React App](https://github.com/facebook/create-react-app).
+[React Router](https://reactrouter.com/web/guides/quick-start).
+[Styled Components](https://styled-components.com/).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Annen kode jeg har brukt
+
+[Code Pen - Google button](https://codepen.io/mupkoo/pen/YgddgB).
+
+## Metode
+
+Jeg forsøkte først å gjøre markup og styling med kun HTML og CSS, da jeg er vant med det og det føltes
+som en god måte å få oversikt når jeg begynte med React. 
+
+Jeg delte opp de delene som skulle gjenbrukes over de to sidene, og la til props for å kunne endre de
+for å få de til å passe.
+
+Jeg brukte Flexbox for å dele opp sidene i to kolonner, og Grid for å dele opp høyre kolonne med 2fr
+for grafikken og 1fr for underteksten.
+
+## Utfordringer
+
+Dette var første gangen jeg brukte både Styled Components og React Router, men jeg tok det som en
+utfordring og lærte mye i prosessen. Ingen av de var altfor kompliserte å lære, men jeg er sikker
+på at det finnes bedre måter å bruke de på, enn det jeg har gjort her.
+
+Jeg var litt usikker på hvordan jeg skulle bruke grafikken i høyre kolonne, så får ordens skyld er
+de screenshots tatt rett fra design fila.
+
+## Endringer
+
+ACO-filen virket ikke riktig, så jeg brukte Figma for å finne ut hva de egentlig fargene som ble 
+brukt var. ACO fargene var litt for mørke, så det så ikke like bra ut.
+
+## Forbedringer
+
+Koden kan være mer oversiktelig, jeg kan lage flere komponenter med egen styling, og dermed ikke 
+trenge å bruke noen CSS filer i det hele tatt. Jeg føler meg foreløpig mest komfortabel med å 
+bruke stylesheets, så jeg har valgt å bruke styled components på komponentene, og stylesheets 
+for generelt layout.
 
 ### `yarn start`
 
@@ -14,57 +49,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
