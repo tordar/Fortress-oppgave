@@ -3,11 +3,14 @@ import Header from './Header'
 import LoginInfo from './LoginInfo'
 import Input from './Input'
 import GoogleBtn from './GoogleBtn'
+import Showcase from './Showcase'
+import SignEmail from './SignEmail'
+import Graph from '../img/graph.png'
+
 
 export const SignUp = () => {
      
     return (
-        
         <div className="row">
         <div className="column">
           <div className="whiteCol">
@@ -15,7 +18,7 @@ export const SignUp = () => {
             <img id="boltLogo" src={Bolt} alt=""></img>
             <Header header="Sign Up"/>
             <GoogleBtn>Sign up with Google</GoogleBtn>
-            <div>Or Sign up with E-mail</div>
+            <SignEmail>Or Sign up with E-mail</SignEmail>
             <form action="submit">
                 <Input 
                 label="Name"
@@ -38,8 +41,14 @@ export const SignUp = () => {
             </div>
           </div>
           </div>
-        <div className="column">
+          <div className="column">
           <div className="blueCol">
+            <div>
+                <img id="graphId" src={Graph} alt=""></img>
+            </div>
+            <div>
+                <Showcase />
+            </div>
         </div>
       </div>
       </div>

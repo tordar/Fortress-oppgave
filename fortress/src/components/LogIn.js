@@ -4,6 +4,8 @@ import LoginInfo from './LoginInfo'
 import Input from './Input'
 import GoogleBtn from './GoogleBtn'
 import Showcase from './Showcase'
+import SignEmail from './SignEmail'
+import Graph from '../img/graph.png'
 
 export const LogIn = () => {
      
@@ -16,7 +18,7 @@ export const LogIn = () => {
             <img id="boltLogo" src={Bolt} alt=""></img>
             <Header header="Login"/>
             <GoogleBtn>Sign in with Google</GoogleBtn>
-            <div>Or Sign in with E-mail</div>
+            <SignEmail>Or Sign in with E-mail</SignEmail>
             <form action="submit">
               <Input 
                 label="E-mail"
@@ -38,7 +40,7 @@ export const LogIn = () => {
         <div className="column">
           <div className="blueCol">
           <div>
-            graphs
+              <img id="graphId" src={Graph} alt=""></img>
           </div>
           <div>
             <Showcase />
