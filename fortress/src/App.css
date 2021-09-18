@@ -31,6 +31,17 @@ body{
     height: 80vh;
  }
 
+ #boltLogo{
+    max-height: 50px;
+ }
+
+ .signIn{
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 .blueCol{
     background-color: #4F37EA;
     height: 80vh;

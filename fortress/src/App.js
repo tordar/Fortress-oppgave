@@ -1,22 +1,18 @@
 import './App.css';
-import SignIn from './components/SignIn';
+import LogIn from './components/LogIn';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <div className="row">
-        <div className="column">
-          <div className="whiteCol">
-            <SignIn />
-          </div>
-        </div>
-        <div className="column">
-          <div className="blueCol">
-
-          </div>
-        </div>
-      </div>
+      <Switch>
+        <Route path="/login">
+          <LogIn />
+        </Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
 
