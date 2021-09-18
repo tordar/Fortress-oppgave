@@ -55,6 +55,19 @@ body{
     
   }
 
+form input[type=text]{
+    width: 90%;
+    height: 30px;
+    border: rgb(238, 236, 236) solid 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 .blueCol{
     background-color: #5138EE;
@@ -68,5 +81,5 @@ body{
 
 #graphId{
     margin-top: 30px;
-    width: 500px;
+    width: 100%;
 }

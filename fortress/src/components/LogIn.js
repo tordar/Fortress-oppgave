@@ -10,7 +10,6 @@ import Graph from '../img/graph.png'
 export const LogIn = () => {
      
     return (
-        
         <div className="row">
         <div className="column">
           <div className="whiteCol">
@@ -48,9 +47,6 @@ export const LogIn = () => {
         </div>
       </div>
       </div>
-      
-            
-        
     )
 }
 
