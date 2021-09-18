@@ -13,7 +13,7 @@ const GoogleBtn = styled.button`
     background-repeat: no-repeat;
     background-position: 12px 11px;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     &:hover{
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
 }

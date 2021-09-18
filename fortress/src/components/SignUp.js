@@ -7,6 +7,7 @@ import Showcase from './Showcase'
 import SignEmail from './SignEmail'
 import Graph from '../img/graph.png'
 import LoginBtn from './LoginBtn'
+import RadioBtn from './RadioBtn'
 
 
 export const SignUp = () => {
@@ -33,6 +34,12 @@ export const SignUp = () => {
               label="Password"
               placeholder="Min. 8 characters"
               ></Input>
+              <RadioBtn 
+            text="I agree to the "
+            id="remember"
+            linktext="Terms and conditions"
+            href=""
+            />
             </form>
             <LoginBtn>Sign up</LoginBtn>
             <LoginInfo 

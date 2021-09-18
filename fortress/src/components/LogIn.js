@@ -7,6 +7,7 @@ import Showcase from './Showcase'
 import SignEmail from './SignEmail'
 import Graph from '../img/graph2.png'
 import LoginBtn from './LoginBtn'
+import RadioBtn from './RadioBtn'
 
 export const LogIn = () => {
      
@@ -28,6 +29,12 @@ export const LogIn = () => {
               label="Password"
               placeholder="Min. 8 characters"
               ></Input>
+            <RadioBtn 
+            text="Remember me "
+            id="remember"
+            linktext="Forgot password?"
+            href=""
+            />
             </form>
             <LoginBtn>Login</LoginBtn>
             <LoginInfo 
