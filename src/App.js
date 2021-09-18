@@ -8,14 +8,14 @@ function App() {
     <Router>
     <div className="App">
       <Switch>
+        <Route exact path="/">
+          <Redirect to="/login" />
+        </Route>
         <Route path="/login">
           <LogIn />
         </Route>
         <Route path="/signup">
           <SignUp />
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/login" />
         </Route>
       </Switch>
     </div>
