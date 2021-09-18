@@ -5,7 +5,8 @@ import Input from './Input'
 import GoogleBtn from './GoogleBtn'
 import Showcase from './Showcase'
 import SignEmail from './SignEmail'
-import Graph from '../img/graph.png'
+import Graph from '../img/graph2.png'
+import LoginBtn from './LoginBtn'
 
 export const LogIn = () => {
      
@@ -28,6 +29,7 @@ export const LogIn = () => {
               placeholder="Min. 8 characters"
               ></Input>
             </form>
+            <LoginBtn>Login</LoginBtn>
             <LoginInfo 
             info="Not registered yet? "
             href="/signup"

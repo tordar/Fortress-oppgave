@@ -44,7 +44,7 @@ body{
 
  .signIn{
     margin: 100px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
 }
 
@@ -80,6 +80,6 @@ input::placeholder{
 }
 
 #graphId{
-    margin-top: 30px;
+    
     width: 100%;
 }
