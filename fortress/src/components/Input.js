@@ -2,7 +2,7 @@
 
 export const Input = (props) => {
     
-   
+// individual styles for input fields
     return (
         <div>
             <label for={props.label}>{props.label}</label><br></br>

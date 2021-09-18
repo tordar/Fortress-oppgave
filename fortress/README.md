@@ -1,19 +1,19 @@
 ## Dette prosjektet bruker
 
-Create React App for å få de første filene og React strukturen [Create React App](https://github.com/facebook/create-react-app)\
-React Router for å kunne navigere de forskjellige sidene [React Router](https://reactrouter.com/web/guides/quick-start)\
-Styled components for styling [Styled Components](https://styled-components.com/)\
-Netlify for deployment [Netlify](https://netlify.com/)\
+[Create React App](https://github.com/facebook/create-react-app) Create React App for å få de første filene og React strukturen\
+[React Router](https://reactrouter.com/web/guides/quick-start) React Router for å kunne navigere de forskjellige sidene\
+[Styled Components](https://styled-components.com/) Styled components for styling\
+[Netlify](https://netlify.com/) Netlify for deployment
 
 
 ## Annen kode jeg har brukt
 
-[Code Pen - Google button](https://codepen.io/mupkoo/pen/YgddgB).
+[Code Pen - Google button](https://codepen.io/mupkoo/pen/YgddgB)
 
 ## Metode
 
 Jeg forsøkte først å gjøre markup og styling med kun HTML og CSS, da jeg er vant med det og det føltes\
-som en god måte å få oversikt når jeg begynte med React. \
+som en god måte å få oversikt når jeg begynte med React. 
 
 Jeg delte opp de delene som skulle gjenbrukes over de to sidene, og la til props for å kunne endre de\
 for å få de til å passe.

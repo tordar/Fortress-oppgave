@@ -3,9 +3,8 @@ import Header from './Header'
 import LoginInfo from './LoginInfo'
 import Input from './Input'
 import GoogleBtn from './GoogleBtn'
-import Showcase from './Showcase'
 
-export const LogIn = () => {
+export const SignUp = () => {
      
     return (
         
@@ -14,10 +13,14 @@ export const LogIn = () => {
           <div className="whiteCol">
             <div className="signIn">
             <img id="boltLogo" src={Bolt} alt=""></img>
-            <Header header="Login"/>
-            <GoogleBtn>Sign in with Google</GoogleBtn>
-            <div>Or Sign in with E-mail</div>
+            <Header header="Sign Up"/>
+            <GoogleBtn>Sign up with Google</GoogleBtn>
+            <div>Or Sign up with E-mail</div>
             <form action="submit">
+                <Input 
+                label="Name"
+                placeholder="Name"
+              ></Input>
               <Input 
                 label="E-mail"
                 placeholder="mail@website.com"
@@ -28,21 +31,15 @@ export const LogIn = () => {
               ></Input>
             </form>
             <LoginInfo 
-            info="Not registered yet? "
-            href="/signup"
-            linkText="Create an account"
+            info="Already have an account? "
+            href="/login"
+            linkText="Sign in"
             />
             </div>
           </div>
           </div>
         <div className="column">
           <div className="blueCol">
-          <div>
-            graphs
-          </div>
-          <div>
-            <Showcase />
-          </div>
         </div>
       </div>
       </div>
@@ -52,4 +49,4 @@ export const LogIn = () => {
     )
 }
 
-export default LogIn
+export default SignUp

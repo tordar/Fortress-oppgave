@@ -1,5 +1,5 @@
 body{
-    background-color: #B0B5F8;
+    background-color: #DCDFFF;
 }
 
 .App{
@@ -11,6 +11,13 @@ body{
     max-width: 80%;
     margin-left: 150px;
 }
+
+@media only screen and (max-width: 600px) {
+    .App {
+      margin: 25px;
+      max-width: 90%;
+    }
+  }
 
 .row {
     display: flex;
@@ -41,12 +48,20 @@ body{
     margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+    .signIn {
+      margin: 50px;
+    }
+    
+  }
+
 
 .blueCol{
-    background-color: #4F37EA;
+    background-color: #5138EE;
     height: 80vh;
     display: grid;
     grid-template-rows: 2fr 1fr;
     justify-content: center;
     align-content: center;
+    color: white;
 }
