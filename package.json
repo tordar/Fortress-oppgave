@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "/login",
+  "homepage": "https://eloquent-allen-9611ae.netlify.app/login",
   "eslintConfig": {
     "extends": [
       "react-app",
