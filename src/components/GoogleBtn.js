@@ -12,6 +12,9 @@ const GoogleBtn = styled.button`
     background-color: white;
     background-repeat: no-repeat;
     background-position: 90px 10px;
+    @media only screen and (max-width: 600px) {
+        background-position: 20px 10px
+    }
     margin: 10px;
     margin-bottom: 15px;
     &:hover{
@@ -20,6 +23,8 @@ const GoogleBtn = styled.button`
     &:active {
         background-color: #eeeeee;
     }
+    
+  
 `
 
 

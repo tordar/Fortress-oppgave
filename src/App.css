@@ -14,8 +14,8 @@ body{
 
 @media only screen and (max-width: 600px) {
     .App {
-      margin: 25px;
-      max-width: 90%;
+      margin: 15px;
+      max-width: 95%;
     }
   }
 
@@ -24,6 +24,12 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
   }
 
 .column{
@@ -62,6 +68,11 @@ body{
     
   }
 
+.inputLabel{
+    font-weight: 600;
+}
+
+
 form input[type=text]{
     width: 90%;
     height: 30px;
@@ -70,10 +81,11 @@ form input[type=text]{
     margin-top: 5px;
     margin-bottom: 10px;
 }
-input::placeholder{
-    position: absolute;
-    top: 10px;
-    left: 10px;
+input[type=text]::placeholder{
+    text-indent: 10px;
+}
+input[type=text]:focus{
+    text-indent: 10px;
 }
 
 input[type=radio] {
@@ -91,6 +103,7 @@ input[type=radio] {
         line-height: 22px;
         font-weight:600;
 }
+
 
 .radioLabel span:before,
 .radioLabel span:after {
@@ -133,6 +146,12 @@ input[type=radio] {
     justify-content: center;
     align-content: center;
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .blueCol{
+        height: 60vh
+    }
 }
 
 #graphId{
