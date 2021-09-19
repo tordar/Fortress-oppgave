@@ -11,7 +11,7 @@ import RadioBtn from './RadioBtn'
 
 
 export const LogIn = () => {
-     
+
     return (
       <div className="row">
         <div className="column">
@@ -29,15 +29,17 @@ export const LogIn = () => {
                 <Input
                   label="Password"
                   placeholder="Min. 8 characters"
+                  length="8"
                 ></Input>
                 <RadioBtn 
                   text="Remember me "
                   id="remember"
                   linktext="Forgot password?"
                   href=""
+                  forgot="forgotPassword"
                 />
+                <LoginBtn type='submit' value="login">Login</LoginBtn>
               </form>
-              <LoginBtn>Login</LoginBtn>
               <LoginInfo 
                 info="Not registered yet? "
                 href="/signup"

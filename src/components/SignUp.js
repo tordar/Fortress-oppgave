@@ -33,15 +33,17 @@ export const SignUp = () => {
                 <Input
                   label="Password"
                   placeholder="Min. 8 characters"
+                  length="8"
                 ></Input>
                 <RadioBtn 
                   text="I agree to the "
-                  id="remember"
+                  id="agreed"
                   linktext="Terms and conditions"
                   href=""
+                  required="true"
                 />
+                <LoginBtn type='submit' value="sign up">Sign up</LoginBtn>
               </form>
-              <LoginBtn>Sign up</LoginBtn>
               <LoginInfo 
                 info="Already have an account? "
                 href="/login"

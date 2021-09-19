@@ -41,8 +41,7 @@ body{
 
 .whiteCol{
     background-color: #FCFCFD;
-    height: 80vh;
-    
+    height: 80vh; 
  }
 
  #boltLogo{
@@ -88,54 +87,19 @@ input[type=text]:focus{
     text-indent: 10px;
 }
 
-input[type=radio] {
-    display: none;
+input[type=checkbox] {
+    background-color: #5138EE;
   }
 
-.radioLabel {
-    display: inline-block;
-    padding: 5px 5px;
-    cursor: pointer;
-  }
-
-.radioLabel span {
-        position: relative;
-        line-height: 22px;
-        font-weight:600;
+.radioLabel span{
+    font-weight: 600;
+    margin-left: 5px;
 }
 
-
-.radioLabel span:before,
-.radioLabel span:after {
-  content: '';
+#forgotPassword{
+    margin-left: 90px;
 }
 
-.radioLabel span:before {
-    background-color: white;
-    border: 1px solid #5138EE;
-    border-radius: 5px;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-.radioLabel span:after {
-    background: #5138EE;
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    position: absolute;
-    top: -2px;
-    left: 1px;
-    transition: 300ms;
-    opacity: 0;
-  }
-
-  .radioLabel input:checked+span:after {
-    opacity: 1;
-  }
 
 .blueCol{
     background-color: #5138EE;

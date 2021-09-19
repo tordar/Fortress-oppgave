@@ -51,8 +51,8 @@ bruke stylesheets, så jeg har valgt å bruke styled components på komponentene
 for generelt layout. Men akkurat nå kan det virke litt rotete i og med at jeg velger å bruke 
 styled components og stylesheets om hverandre. Jeg valgte å gå for dette for å få erfaring med å
 bruke styled components. Tankegangen ved hva som ble en styled component og hva som gikk i 
-stylesheets var at om det var kun ett element i komponenten, så ble det SC, mens om jeg hadde flere
-elementer i komponenten, så stylet jeg den med stylesheets.
+stylesheets var at om det var kun ett element i komponenten, så ble det SC, men om jeg hadde flere
+elementer i komponenten, så brukte jeg stylesheets.
 
 Jeg var usikker på om grafikken i høyre kolonne egentlig var ment å være en JS bilde karusell.
 Dette kunne vært en kul utfordring å få til, men denne gangen valgte jeg å fokusere mest på UI.
