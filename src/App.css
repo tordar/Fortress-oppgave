@@ -36,16 +36,23 @@ body{
 .whiteCol{
     background-color: #FCFCFD;
     height: 80vh;
+    
  }
 
  #boltLogo{
     max-height: 50px;
  }
 
+ #info{
+     color: rgb(96, 96, 96);
+     margin-bottom: 20px;
+ }
+
  .signIn{
     margin: 100px;
     margin-top: 25px;
     margin-bottom: 50px;
+    font-size: small;
 }
 
 @media only screen and (max-width: 600px) {
@@ -69,6 +76,55 @@ input::placeholder{
     left: 10px;
 }
 
+input[type=radio] {
+    display: none;
+  }
+
+.radioLabel {
+    display: inline-block;
+    padding: 5px 5px;
+    cursor: pointer;
+  }
+
+.radioLabel span {
+        position: relative;
+        line-height: 22px;
+        font-weight:600;
+}
+
+.radioLabel span:before,
+.radioLabel span:after {
+  content: '';
+}
+
+.radioLabel span:before {
+    background-color: white;
+    border: 1px solid #5138EE;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+.radioLabel span:after {
+    background: #5138EE;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    transition: 300ms;
+    opacity: 0;
+  }
+
+  .radioLabel input:checked+span:after {
+    opacity: 1;
+  }
+
+
 .blueCol{
     background-color: #5138EE;
     height: 80vh;
@@ -85,7 +141,8 @@ input::placeholder{
 
 #showcase{
     text-align: center;
-    width: 100%;
+    width: 42%;
     font-size: smaller;
     color: white;
+    margin: auto;
 }

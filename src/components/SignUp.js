@@ -52,12 +52,8 @@ export const SignUp = () => {
           </div>
           <div className="column">
           <div className="blueCol">
-            <div>
                 <img id="graphId" src={Graph} alt=""></img>
-            </div>
-            <div>
                 <Showcase />
-            </div>
         </div>
       </div>
       </div>
