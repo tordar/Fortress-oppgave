@@ -31,7 +31,8 @@ Jeg var litt usikker på hvordan jeg skulle bruke grafikken i høyre kolonne, s�
 de screenshots tatt rett fra design fila.
 
 Dette var også første gangen jeg har brukt Netlify. Tidligere har jeg brukt Heroku, eller GitHub Pages,\
-så dette var også en ny utfordring.
+så dette var også en ny utfordring. Sammen med React Router fikk jeg en del problemer. Blant annet når\
+jeg ville sette homepage til /login. 
 
 ## Endringer
 
