@@ -1,8 +1,5 @@
-// import styled from 'styled-components'
-
 export const Input = (props) => {
-    
-// individual styles for input fields
+
     return (
         <div>
             <label className="inputLabel" for={props.label}>{props.label}</label><br></br>

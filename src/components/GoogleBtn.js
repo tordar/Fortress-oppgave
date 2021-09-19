@@ -23,8 +23,6 @@ const GoogleBtn = styled.button`
     &:active {
         background-color: #eeeeee;
     }
-    
-  
 `
 
 

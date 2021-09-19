@@ -17,6 +17,4 @@ const LoginBtn = styled.button`
 }
 `
 
-
-
 export default LoginBtn

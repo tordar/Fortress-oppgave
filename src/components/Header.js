@@ -1,8 +1,4 @@
-// import styled from 'styled-components'
-
-export const Header = (props) => {
-    
-   
+export const Header = (props) => { 
     return (
         <div>
             <div id="login">
@@ -14,5 +10,4 @@ export const Header = (props) => {
         </div>
     )
 }
-
 export default Header

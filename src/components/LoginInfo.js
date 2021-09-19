@@ -1,6 +1,5 @@
 export const LoginInfo = (props) => {
     
-   
     return (
         <div>
             <div id="notRegistered">

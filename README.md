@@ -12,39 +12,50 @@
 
 ## Metode
 
-Jeg forsøkte først å gjøre markup og styling med kun HTML og CSS, da jeg er vant med det og det føltes\
+Jeg forsøkte først å gjøre markup og styling med kun HTML og CSS, da jeg er vant med det og det føltes
 som en god måte å få oversikt når jeg begynte med React. 
 
-Jeg delte opp de delene som skulle gjenbrukes over de to sidene, og la til props for å kunne endre de\
+Jeg delte opp de delene som skulle gjenbrukes over de to sidene, og la til props for å kunne endre de
 for å få de til å passe.
 
-Jeg brukte Flexbox for å dele opp sidene i to kolonner, og Grid for å dele opp høyre kolonne med 2fr\
+Jeg brukte Flexbox for å dele opp sidene i to kolonner, og Grid for å dele opp høyre kolonne med 2fr
 for grafikken og 1fr for underteksten.
+
+Selvom det kanskje er andre metoder jeg er mer vant med ønsket jeg å jobbe med React ferdighetene mine,
+så jeg bestemte meg for å bruke det. Det samme gjelder Styled Components, React Router og Netlify.
 
 ## Utfordringer
 
-Dette var første gangen jeg brukte både Styled Components og React Router, men jeg tok det som en\
-utfordring og lærte mye i prosessen. Ingen av de var altfor kompliserte å lære, men jeg er sikker\
-på at det finnes bedre måter å bruke de på, enn det jeg har gjort her.
+Dette var første gangen jeg brukte både Styled Components og React Router, men jeg tok det som en
+utfordring og lærte mye i prosessen. Jeg er sikker på at det finnes bedre måter å bruke Styled 
+Components på, men dette er noe jeg kommer til å bli bedre på over tid. React Router var relativt
+greit, men når det kom til deployment med Netlify bydde det på flere interessante problemer, som
+jeg tror jeg løste greit.
 
-Jeg var litt usikker på hvordan jeg skulle bruke grafikken i høyre kolonne, så får ordens skyld er\
-de screenshots tatt rett fra design fila.
+Jeg var litt usikker på hvordan jeg skulle bruke grafikken i høyre kolonne, så får ordens skyld er
+de screenshots tatt fra design fila.
 
-Dette var også første gangen jeg har brukt Netlify. Tidligere har jeg brukt Heroku, eller GitHub Pages,\
-så dette var også en ny utfordring. Sammen med React Router fikk jeg en del problemer. Blant annet når\
-jeg ville sette homepage til /login. 
+Dette var også første gangen jeg har brukt Netlify. Tidligere har jeg brukt Heroku, eller GitHub Pages,
+så dette var også en ny utfordring. 
 
 ## Endringer
 
-ACO-filen virket ikke riktig, så jeg brukte Figma for å finne ut hva de egentlig fargene som ble \
+ACO-filen virket ikke riktig, så jeg brukte Figma for å finne ut hva de egentlig fargene som ble 
 brukt var. ACO fargene var litt for mørke, så det så ikke like bra ut.
 
 ## Forbedringer
 
-Koden kan være mer oversiktelig, jeg kan lage flere komponenter med egen styling, og dermed ikke \
-trenge å bruke noen CSS filer i det hele tatt. Jeg føler meg foreløpig mest komfortabel med å \
-bruke stylesheets, så jeg har valgt å bruke styled components på komponentene, og stylesheets \
-for generelt layout.
+Koden kan være mer oversiktelig, jeg kan lage flere komponenter med egen styling, og dermed ikke 
+trenge å bruke noen CSS filer i det hele tatt. Jeg føler meg foreløpig mest komfortabel med å 
+bruke stylesheets, så jeg har valgt å bruke styled components på komponentene, og stylesheets 
+for generelt layout. Men akkurat nå kan det virke litt rotete i og med at jeg velger å bruke 
+styled components og stylesheets om hverandre. Jeg valgte å gå for dette for å få erfaring med å
+bruke styled components. Tankegangen ved hva som ble en styled component og hva som gikk i 
+stylesheets var at om det var kun ett element i komponenten, så ble det SC, mens om jeg hadde flere
+elementer i komponenten, så stylet jeg den med stylesheets.
+
+Jeg var usikker på om grafikken i høyre kolonne egentlig var ment å være en JS bilde karusell.
+Dette kunne vært en kul utfordring å få til, men denne gangen valgte jeg å fokusere mest på UI.
 
 ### `yarn start`
 

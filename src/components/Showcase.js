@@ -1,6 +1,5 @@
 export const Showcase = () => {
     
-   
     return (
         <div>
             <div id="showcase">
