@@ -15,10 +15,10 @@ function App() {
         <Route exact path="/signup" >
           <Redirect to="/signup" />
         </Route>
-        <Route exact path="/login" >
+        <Route path="/login" >
           <LogIn />
         </Route>
-        <Route exact path="/signup">
+        <Route path="/signup">
           <SignUp />
         </Route>
       </Switch>
