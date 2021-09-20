@@ -1,3 +1,6 @@
+## Live link
+https://eloquent-allen-9611ae.netlify.app
+
 ## Dette prosjektet bruker
 
 [Create React App](https://github.com/facebook/create-react-app) for å få de første filene og React strukturen\
