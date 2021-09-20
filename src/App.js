@@ -12,9 +12,6 @@ function App() {
         <Route exact path="/" >
           <Redirect to="/login" />
         </Route>
-        <Route exact path="/signup" >
-          <Redirect to="/signup" />
-        </Route>
         <Route path="/login" >
           <LogIn />
         </Route>
