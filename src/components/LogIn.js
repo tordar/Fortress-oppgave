@@ -44,6 +44,7 @@ export const LogIn = () => {
                 info="Not registered yet? "
                 href="/signup"
                 linkText="Create an account"
+                id="account"
               />
             </div>
           </div>

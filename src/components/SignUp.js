@@ -36,7 +36,7 @@ export const SignUp = () => {
                   length="8"
                 ></Input>
                 <RadioBtn 
-                  text="I agree to the "
+                  text="I agree to the"
                   id="agreed"
                   linktext="Terms and conditions"
                   href=""

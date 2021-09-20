@@ -95,9 +95,23 @@ input[type=checkbox] {
     font-weight: 600;
     margin-left: 5px;
 }
+.radioLabel span a{
+    font-weight: 600;
+    margin-left: 5px;
+    text-decoration: none;
+}
 
 #forgotPassword{
     margin-left: 90px;
+}
+
+#notRegistered{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#notRegistered a{
+    text-decoration: none;
 }
 
 
