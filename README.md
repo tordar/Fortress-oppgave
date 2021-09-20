@@ -29,8 +29,9 @@ så jeg bestemte meg for å bruke det. Det samme gjelder Styled Components, Reac
 Dette var første gangen jeg brukte både Styled Components og React Router, men jeg tok det som en
 utfordring og lærte mye i prosessen. Jeg er sikker på at det finnes bedre måter å bruke Styled 
 Components på, men dette er noe jeg kommer til å bli bedre på over tid. React Router var relativt
-greit, men når det kom til deployment med Netlify bydde det på flere interessante problemer, som
-jeg tror jeg løste greit.
+greit i production, men når det kom til deployment med Netlify bydde det på flere problemer. Foreløpig
+når man besøker siden går den direkte til login, via en redirect fra root, men når jeg prøver å skifte til
+signup får jeg opp en 404. 
 
 Jeg var litt usikker på hvordan jeg skulle bruke grafikken i høyre kolonne, så får ordens skyld er
 de screenshots tatt fra design fila.
